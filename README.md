@@ -1,29 +1,24 @@
-# 📱 Mini-App 1: Calculadora de IMC
+# 📱 Mini-App 2: Lista de Compras
 
 ## 🎯 Objetivo
-Praticar os fundamentos do **Jetpack Compose** e o uso de **layouts simples (Row e Column)**, além de aplicar **Modifiers** básicos.
+Praticar o uso de **listas dinâmicas (LazyColumn)**, gerenciamento de estado e manipulação de dados em Compose.
 
 ## 📋 Funcionalidades
-- Tela com campos para digitar **peso** (kg) e **altura** (m).
-- Botão para calcular o **IMC**.
-- Exibir o resultado do IMC e a classificação:
-  - Abaixo de 17	Muito abaixo do peso
-  - Entre 17 e 18,49	Abaixo do peso
-  - Entre 18,50 e 24,99	Peso normal
-  - Entre 25 e 29,99	Acima do peso
-  - Entre 30 e 34,99	Obesidade I
-  - Entre 35 e 39,99	Obesidade II (severa)
-  - Acima de 40	Obesidade III (mórbida)
-- Usar `Row` e `Column` para organizar os elementos.
-- Aplicar ao menos 3 `Modifier` diferentes (ex.: `padding`, `fillMaxWidth`, `background`).
+- Campo de texto para inserir o nome de um item.
+- Botão para **adicionar** o item à lista.
+- Exibir os itens em uma **LazyColumn**.
+- Cada item deve ter a opção de **remover** da lista.
+- Mostrar contagem total de itens adicionados.
 
 ## ✅ Requisitos Técnicos
-- Implementação em **Kotlin** com **Jetpack Compose**.
-- Interface construída apenas com **Composable Functions**.
-- Boas práticas de nomes e organização do código.
+- Uso de **LazyColumn**.
+- Gerenciamento de estado com `remember` ou `mutableStateListOf`.
+- Layout organizado com `Row` e `Column`.
+- Uso de `Modifier` para espaçamento e alinhamento.
+
 
 ## 🚚 Entrega
 1. Adicione screenshots ou um vídeo do aplicativo funcionando na past **entrega**
-2. Preencha o <a href="https://forms.gle/ytpnh6PRjFaFxcBQ7" target="_blank">formulário contando como foi sua experiência durante o desenvolvimento</a>
+2. Preencha o [formulário contando como foi sua experiência durante o desenvolvimento](https://forms.gle/sf2J4jNW4nWLAANFA)
 3. Faça o push para o branch criado ao aceitar o assignment
 
